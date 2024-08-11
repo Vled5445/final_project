@@ -32,7 +32,8 @@ values (10,'123'),(51,'124'),(23,'223'),(3,'324'),(1,'123'),(5,'124'),(2,'223'),
 
 Посмотрим наличие данных в clickhouse01 
 
-<img width="278" alt="image" src="https://github.com/user-attachments/assets/8945fbc7-7cdb-4132-bc67-68af1a031377">
+<img width="283" alt="image" src="https://github.com/user-attachments/assets/f9f39f50-911a-49fb-9f08-f223dd1fd406">
 
 
-Видим, что тут есть только нечетные ID  
+
+Видим, что тут есть только нечетные ID, которые по ключу шардирования попали в эту таблицу
