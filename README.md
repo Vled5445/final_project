@@ -30,7 +30,7 @@ values (10,'123'),(51,'124'),(23,'223'),(3,'324'),(1,'123'),(5,'124'),(2,'223'),
 
 <img width="279" alt="image" src="https://github.com/user-attachments/assets/9f0257bb-0985-46c3-935d-6f0fa2c3a294">
 
-Посмотрим наличие данных в clickhouse01 
+Посмотрим наличие данных в clickhouse01, в реплицируемой таблице
 
 <img width="283" alt="image" src="https://github.com/user-attachments/assets/f9f39f50-911a-49fb-9f08-f223dd1fd406">
 
