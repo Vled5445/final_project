@@ -21,7 +21,6 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
       - ZOOKEEPER_CLIENT_PORT=2181
     volumes:
-      - ./config.xml:/etc/clickhouse-server/config.xml
       - ./clusters.xml:/etc/clickhouse-server/config.d/clusters.xml
       - ./listen_host.xml:/etc/clickhouse-server/config.d/listen_host.xml
       - ./zookeeper.xml:/etc/clickhouse-server/config.d/zookeeper.xml
@@ -48,7 +47,6 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
       - ZOOKEEPER_CLIENT_PORT=2181
     volumes:
-      - ./config.xml:/etc/clickhouse-server/config.xml
       - ./clusters.xml:/etc/clickhouse-server/config.d/clusters.xml
       - ./listen_host.xml:/etc/clickhouse-server/config.d/listen_host.xml
       - ./zookeeper.xml:/etc/clickhouse-server/config.d/zookeeper.xml
@@ -75,7 +73,6 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
       - ZOOKEEPER_CLIENT_PORT=2181
     volumes:
-      - ./config.xml:/etc/clickhouse-server/config.xml
       - ./clusters.xml:/etc/clickhouse-server/config.d/clusters.xml
       - ./listen_host.xml:/etc/clickhouse-server/config.d/listen_host.xml
       - ./zookeeper.xml:/etc/clickhouse-server/config.d/zookeeper.xml
@@ -103,7 +100,6 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
       - ZOOKEEPER_CLIENT_PORT=2181
     volumes:
-      - ./config.xml:/etc/clickhouse-server/config.xml
       - ./clusters.xml:/etc/clickhouse-server/config.d/clusters.xml
       - ./listen_host.xml:/etc/clickhouse-server/config.d/listen_host.xml
       - ./zookeeper.xml:/etc/clickhouse-server/config.d/zookeeper.xml
@@ -131,7 +127,6 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
       - ZOOKEEPER_CLIENT_PORT=2181
     volumes:
-      - ./config.xml:/etc/clickhouse-server/config.xml
       - ./clusters.xml:/etc/clickhouse-server/config.d/clusters.xml
       - ./listen_host.xml:/etc/clickhouse-server/config.d/listen_host.xml
       - ./zookeeper.xml:/etc/clickhouse-server/config.d/zookeeper.xml
